@@ -1,43 +1,16 @@
 [
     {
-        "triggerText": "*apa ini masih ada?*",
+        "triggerText": "*antar*",
         "triggerVariants": [
-            "*apa ini masih ada?*",
-            "*apa ini masih ada? 😊*",
-            "*hai, apa masih ada?*",
-            "*halo, apa masih ada?*",
-            "*apakah masih ada?*",
-            "*masih ada*"
+            "*antar*",
+            "*kirim*",
+            "*dikirim*",
+            "*diantar*",
+            "*cod*"
         ],
         "matchType": "WILDCARD",
         "replyVariants": [
-            "Halo kak, untuk detail dan stock bisa WA ya kak, nanti akan dbantu cek admin di Whatsapp.\n\nHarga dan foto produk sesuai iklan :)\n\nFast Respon\nStore Sleman\nMaps: Fara Creative\nwa.me/+6287767730804\n\nStore Solo:\nMaps: Fara Creative 3\nwa.me/+62895406413715"
-        ],
-        "replyPerLineMode": false,
-        "sendMode": "FIRST",
-        "enabled": true,
-        "caseSensitive": false,
-        "minDelaySeconds": 5,
-        "maxDelaySeconds": 10,
-        "recipientScope": "BOTH",
-        "specificContacts": "",
-        "ignoredContacts": "",
-        "priorityNotification": true,
-        "pauseUnit": "SECONDS",
-        "platforms": "FACEBOOK"
-    },
-    {
-        "triggerText": "apa ini masih ada?",
-        "triggerVariants": [
-            "apa ini masih ada?",
-            "apa ini masih ada? 😊",
-            "hai, apa masih ada?",
-            "halo, apa masih ada?",
-            "apakah masih ada?"
-        ],
-        "matchType": "SIMILARITY",
-        "replyVariants": [
-            "Halo kak, unit ready ya.\nHarga dan foto produk sesuai iklan :)\n\nFast Respon\n\nStore Sleman\nMaps: Fara Creative\nwa.me/+6287767730804\n\nStore Solo:\nMaps: Fara Creative 3\nwa.me/+62895406413715"
+            "bisa coba shareloc di Whatsapp kak, kami cek dlu ya :)"
         ],
         "sendMode": "FIRST",
         "enabled": true,
@@ -52,17 +25,13 @@
         "platforms": "FACEBOOK"
     },
     {
-        "triggerText": "lok",
+        "triggerText": "*ongkir*",
         "triggerVariants": [
-            "lok",
-            "lok?",
-            "lok ?",
-            "lok dmn?",
-            "lok dmna?"
+            "*ongkir*"
         ],
-        "matchType": "SIMILARITY",
+        "matchType": "WILDCARD",
         "replyVariants": [
-            "*Fara Creative*\n\n● *STORE SLEMAN*\nWA:0877-6773-0804 | 0878-7413-8931\nJl Kapten Haryadi, Ngaglik, Sleman \n(Selatan Jalan, Gerbang Hitam, No 19 , Timur Hara Chicken).\nMaps: https://maps.app.goo.gl/krtSvXAjon3gJrLP6\n\n● *HOMESTORE KLATEN*\nPrambanan, Klaten (Dengan Perjanjian)\nMaps: https://maps.app.goo.gl/wHay8opxWjhbknYj9\n\n● *HOMESTORE SOLO*\nWA: 0895406413715\nJl Utara Lap. Blulukan 1, Surakarta, Jawa Tengah (Dekat UMS)\nMaps: https://maps.app.goo.gl/Lr5KYskeGbJLoyw87\n\nSilahkan konfirmasi dulu sebelum ke lokasi, Stock berjalan dan dapat berubah sewaktu-waktu."
+            "ongkirnya terjangkau kak, bsa coba shareloc dlu di WA ya kak agar kami cek dulu."
         ],
         "sendMode": "FIRST",
         "enabled": true,
@@ -77,47 +46,17 @@
         "platforms": "FACEBOOK"
     },
     {
-        "triggerText": "*ukuran*",
+        "triggerText": "*nego*",
         "triggerVariants": [
-            "*ukuran*"
+            "*nego*",
+            "*nett*",
+            "*net*",
+            "*bs kurang*",
+            "*bisa kurang*"
         ],
         "matchType": "WILDCARD",
         "replyVariants": [
-            "Untuk ukuran sesuai iklan kak, untuk detailnya bisa wa ya."
-        ],
-        "sendMode": "FIRST",
-        "enabled": true,
-        "caseSensitive": false,
-        "minDelaySeconds": 5,
-        "maxDelaySeconds": 5,
-        "recipientScope": "BOTH",
-        "specificContacts": "",
-        "ignoredContacts": "",
-        "priorityNotification": false,
-        "pauseUnit": "SECONDS",
-        "platforms": "FACEBOOK"
-    },
-    {
-        "triggerText": "*harga*",
-        "triggerVariants": [
-            "*harga*",
-            "*harga?*",
-            "*harg?*",
-            "*berapa?*",
-            "*brp*",
-            "*brp?*",
-            "*hrg*",
-            "*harga berapa*",
-            "*hrg brp*",
-            "*hrg berapa*",
-            "*hrg brpa*",
-            "*hrga brp*",
-            "*hrga brpa*",
-            "*hrga berapa*"
-        ],
-        "matchType": "WILDCARD",
-        "replyVariants": [
-            "untuk harga sesuai iklan ya kak.\nFast respon bisa wa kesni\n\nStore Sleman\nMaps: Fara Creative\nwa.me/+6287767730804\n\nStore Solo\nMaps: Fara Creative 3\nwa.me/+62895406413715"
+            "maaf banget kak, untuk harga nett sesuai iklan ya 🙏"
         ],
         "sendMode": "FIRST",
         "enabled": true,
@@ -154,17 +93,23 @@
         "platforms": "FACEBOOK"
     },
     {
-        "triggerText": "*nego*",
+        "triggerText": "*harga*",
         "triggerVariants": [
-            "*nego*",
-            "*nett*",
-            "*net*",
-            "*bs kurang*",
-            "*bisa kurang*"
+            "*harga*",
+            "*harga?*",
+            "*harg?*",
+            "*hrg*"
         ],
         "matchType": "WILDCARD",
         "replyVariants": [
-            "maaf banget kak, untuk harga nett sesuai iklan ya 🙏"
+            "untuk harga sesuai iklan ya kak.",
+            "Fast respon bisa wa kesni",
+            "Store Sleman",
+            "Maps: Fara Creative",
+            "wa.me/+6287767730804",
+            "Store Solo",
+            "Maps: Fara Creative 3",
+            "wa.me/+62895406413715"
         ],
         "sendMode": "FIRST",
         "enabled": true,
@@ -179,13 +124,38 @@
         "platforms": "FACEBOOK"
     },
     {
-        "triggerText": "*ongkir*",
+        "triggerText": "*ukuran*",
         "triggerVariants": [
-            "*ongkir*"
+            "*ukuran*"
         ],
         "matchType": "WILDCARD",
         "replyVariants": [
-            "ongkirnya terjangkau kak, bsa coba shareloc dlu di WA ya kak agar kami cek dulu."
+            "Untuk ukuran sesuai iklan kak, untuk detailnya bisa wa ya."
+        ],
+        "sendMode": "FIRST",
+        "enabled": true,
+        "caseSensitive": false,
+        "minDelaySeconds": 5,
+        "maxDelaySeconds": 5,
+        "recipientScope": "BOTH",
+        "specificContacts": "",
+        "ignoredContacts": "",
+        "priorityNotification": false,
+        "pauseUnit": "SECONDS",
+        "platforms": "FACEBOOK"
+    },
+    {
+        "triggerText": "lok",
+        "triggerVariants": [
+            "lok",
+            "lok?",
+            "lok ?",
+            "lok dmn?",
+            "lok dmna?"
+        ],
+        "matchType": "SIMILARITY",
+        "replyVariants": [
+            "*Fara Creative*\n\n● *STORE SLEMAN*\nWA:0877-6773-0804 | 0878-7413-8931\nJl Kapten Haryadi, Ngaglik, Sleman \n(Selatan Jalan, Gerbang Hitam, No 19 , Timur Hara Chicken).\nMaps: https://maps.app.goo.gl/krtSvXAjon3gJrLP6\n\n● *HOMESTORE KLATEN*\nPrambanan, Klaten (Dengan Perjanjian)\nMaps: https://maps.app.goo.gl/wHay8opxWjhbknYj9\n\n● *HOMESTORE SOLO*\nWA: 0895406413715\nJl Utara Lap. Blulukan 1, Surakarta, Jawa Tengah (Dekat UMS)\nMaps: https://maps.app.goo.gl/Lr5KYskeGbJLoyw87\n\nSilahkan konfirmasi dulu sebelum ke lokasi, Stock berjalan dan dapat berubah sewaktu-waktu."
         ],
         "sendMode": "FIRST",
         "enabled": true,
@@ -200,17 +170,17 @@
         "platforms": "FACEBOOK"
     },
     {
-        "triggerText": "*antar*",
+        "triggerText": "apa ini masih ada?",
         "triggerVariants": [
-            "*antar*",
-            "*kirim*",
-            "*dikirim*",
-            "*diantar*",
-            "*cod*"
+            "apa ini masih ada?",
+            "apa ini masih ada? 😊",
+            "hai, apa masih ada?",
+            "halo, apa masih ada?",
+            "apakah masih ada?"
         ],
-        "matchType": "WILDCARD",
+        "matchType": "SIMILARITY",
         "replyVariants": [
-            "bisa coba shareloc di Whatsapp kak, kami cek dlu ya :)"
+            "Halo kak, unit ready ya.\nHarga dan foto produk sesuai iklan :)\n\nFast Respon\n\nStore Sleman\nMaps: Fara Creative\nwa.me/+6287767730804\n\nStore Solo:\nMaps: Fara Creative 3\nwa.me/+62895406413715"
         ],
         "sendMode": "FIRST",
         "enabled": true,
@@ -221,6 +191,33 @@
         "specificContacts": "",
         "ignoredContacts": "",
         "priorityNotification": false,
+        "pauseUnit": "SECONDS",
+        "platforms": "FACEBOOK"
+    },
+    {
+        "triggerText": "*apa ini masih ada?*",
+        "triggerVariants": [
+            "*apa ini masih ada?*",
+            "*apa ini masih ada? 😊*",
+            "*hai, apa masih ada?*",
+            "*halo, apa masih ada?*",
+            "*apakah masih ada?*",
+            "*masih ada*"
+        ],
+        "matchType": "WILDCARD",
+        "replyVariants": [
+            "Halo kak, untuk detail dan stock bisa WA ya kak, nanti akan dbantu cek admin di Whatsapp.\n\nHarga dan foto produk sesuai iklan :)\n\nFast Respon\nStore Sleman\nMaps: Fara Creative\nwa.me/+6287767730804\n\nStore Solo:\nMaps: Fara Creative 3\nwa.me/+62895406413715"
+        ],
+        "replyPerLineMode": false,
+        "sendMode": "FIRST",
+        "enabled": true,
+        "caseSensitive": false,
+        "minDelaySeconds": 5,
+        "maxDelaySeconds": 10,
+        "recipientScope": "BOTH",
+        "specificContacts": "",
+        "ignoredContacts": "",
+        "priorityNotification": true,
         "pauseUnit": "SECONDS",
         "platforms": "FACEBOOK"
     }
